@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>PRIS.Data Class Library</Description>
+    <Authors>FRANCONET</Authors>
+    <TargetFramework>dotnet</TargetFramework>
+    <AssemblyName>PRIS.Data</AssemblyName>
+    <PackageId>PRIS.Data</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.0.11" />
+    <PackageReference Include="System.Linq" Version="4.1.0" />
+    <PackageReference Include="System.Threading" Version="4.0.11" />
+    <PackageReference Include="System.Runtime" Version="4.1.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>
