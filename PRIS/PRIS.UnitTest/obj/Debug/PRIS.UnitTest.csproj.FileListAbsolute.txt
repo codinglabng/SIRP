@@ -1,0 +1,4 @@
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.pdb
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.pdb

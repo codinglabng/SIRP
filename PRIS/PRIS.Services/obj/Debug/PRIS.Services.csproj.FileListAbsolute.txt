@@ -1,0 +1,4 @@
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.pdb
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.pdb

@@ -1,0 +1,5 @@
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.pdb
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.csprojResolveAssemblyReference.cache
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.pdb
