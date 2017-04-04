@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PRIS/PRIS.Repositories/obj/Debug/CoreCompileInputs.cache
+/PRIS/PRIS.Data/obj/Debug/CoreCompileInputs.cache
+/PRIS/PRIS/obj/Debug/CoreCompileInputs.cache
+/PRIS/.vs/PRIS/v15/.suo
