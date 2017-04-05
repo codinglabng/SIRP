@@ -3,3 +3,17 @@ C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.csprojResolveAssemblyReference.cache
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Repositories.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Repositories.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Repositories.dll.config
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Core.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Data.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Core.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Data.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\EntityFramework.SqlServer.xml

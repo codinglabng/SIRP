@@ -3,3 +3,15 @@ C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Co
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.csprojResolveAssemblyReference.cache
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.csprojResolveAssemblyReference.cache
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Data.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Data.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.xml
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.dll.config
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.xml
