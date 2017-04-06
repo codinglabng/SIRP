@@ -12,6 +12,8 @@ namespace PRIS.Core
 
         App GetAppsByUserId(int Id);
         IQueryable<App> GetApps();
+        Activity GetActivityUserId(int Id);
+        IQueryable<Activity> GetActivity();
         
 
     }
