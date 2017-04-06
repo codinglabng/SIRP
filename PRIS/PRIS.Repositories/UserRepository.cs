@@ -23,6 +23,16 @@ namespace PRIS.Repositories
             return app;
         }
 
-        
+        public IQueryable<Activity> GetActivity()
+        {
+            var activity = _db.Activities.OrderByDescending(e => e.Id);
+            return activity;
+        }
+
+        public Activity GetActivityUserId(int Id)
+        {
+            var activity = _db.Activities.FirstOrDefault(e => e.Id == e.Id);
+            return activity;
+        }
     }
 }
