@@ -9,8 +9,16 @@ namespace PRIS.Controllers
     public class SearchEngineController : Controller
     {
         // GET: SearchEngine
-        public ActionResult Index()
+        public ActionResult Index(string searchString)
         {
+            /*
+            var prissearch = from c in db.PRIS
+                             select c;
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                prissearch = prissearch.Where(s => )
+            }
+            */
             return View();
         }
 
