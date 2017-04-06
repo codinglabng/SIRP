@@ -15,3 +15,10 @@ C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.xm
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.dll.config
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.dll.config
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Data.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Data.pdb
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.xml

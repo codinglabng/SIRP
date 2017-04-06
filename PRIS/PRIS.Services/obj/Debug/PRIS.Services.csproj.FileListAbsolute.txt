@@ -12,3 +12,8 @@ C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramewor
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.xml
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.csprojResolveAssemblyReference.cache
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.csprojResolveAssemblyReference.cache
