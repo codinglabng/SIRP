@@ -27,5 +27,8 @@ namespace PRIS.Data.Models
     
         public virtual DbSet<Activity> Activities { get; set; }
         public virtual DbSet<App> Apps { get; set; }
+        public virtual DbSet<ClientsTable> ClientsTables { get; set; }
+        public virtual DbSet<PublishApp> PublishApps { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
     }
 }

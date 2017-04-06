@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>5</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -53,53 +54,61 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Models\Activity.cs">
-      <DependentUpon>Pris.tt</DependentUpon>
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\App.cs">
-      <DependentUpon>Pris.tt</DependentUpon>
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Pris.Context.cs">
+    <Compile Include="Models\ClientsTable.cs">
+      <DependentUpon>PRIS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PRIS.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Pris.Context.tt</DependentUpon>
+      <DependentUpon>PRIS.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Pris.cs">
+    <Compile Include="Models\PRIS.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Pris.tt</DependentUpon>
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Pris.Designer.cs">
+    <Compile Include="Models\PRIS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Pris.edmx</DependentUpon>
+      <DependentUpon>PRIS.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PublishApp.cs">
+      <DependentUpon>PRIS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Models\Pris.edmx">
+    <EntityDeploy Include="Models\PRIS.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Pris.Designer.cs</LastGenOutput>
+      <LastGenOutput>PRIS.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <None Include="App.Config" />
-    <None Include="Models\Pris.edmx.diagram">
-      <DependentUpon>Pris.edmx</DependentUpon>
+    <None Include="Models\PRIS.edmx.diagram">
+      <DependentUpon>PRIS.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Models\Pris.Context.tt">
+    <Content Include="Models\PRIS.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Pris.edmx</DependentUpon>
-      <LastGenOutput>Pris.Context.cs</LastGenOutput>
+      <DependentUpon>PRIS.edmx</DependentUpon>
+      <LastGenOutput>PRIS.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\Pris.tt">
+    <Content Include="Models\PRIS.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Pris.edmx</DependentUpon>
-      <LastGenOutput>Pris.cs</LastGenOutput>
+      <DependentUpon>PRIS.edmx</DependentUpon>
+      <LastGenOutput>PRIS.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

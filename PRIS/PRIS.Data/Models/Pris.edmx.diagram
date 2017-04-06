@@ -4,10 +4,14 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="12362e3a5a4646658f7bc3d576dc41cd" Name="Diagram1">
-        <EntityTypeShape EntityType="PrisDbModel.Activity" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="PrisDbModel.App" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+      <Diagram DiagramId="4aeb4fa68503409ca884ca18b3fcf9b3" Name="Diagram1">
+        <EntityTypeShape EntityType="PrisDbModel.Activity" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrisDbModel.App" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrisDbModel.ClientsTable" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrisDbModel.PublishApp" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrisDbModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
         <AssociationConnector Association="PrisDbModel.FK_Activity_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="PrisDbModel.FK_PublishApp_PublishApp" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
