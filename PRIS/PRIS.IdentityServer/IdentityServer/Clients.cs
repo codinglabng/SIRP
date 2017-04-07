@@ -9,7 +9,7 @@ namespace PRIS.IdentityServer.IdentityServer
         {
             return new[]
             {
-                new Client 
+                new Client
                 {
                     ClientName = "MVC Client",
                     ClientId = "mvc",
@@ -17,11 +17,11 @@ namespace PRIS.IdentityServer.IdentityServer
 
                     RedirectUris = new List<string>
                     {
-                        "https://localhost:44319/"
+                        "http://localhost:53419/account/signInCallback2"
                     },
                     PostLogoutRedirectUris = new List<string>
                     {
-                        "https://localhost:44319/"
+                        "http://localhost:53419/account/signInCallback2"
                     },
                     AllowedScopes = new List<string>
                     {
@@ -33,7 +33,7 @@ namespace PRIS.IdentityServer.IdentityServer
                 },
                 new Client
                 {
-                    ClientName = "MVC Client (service communication)",   
+                    ClientName = "MVC Client (service communication)",
                     ClientId = "mvc_service",
                     Flow = Flows.ClientCredentials,
 
