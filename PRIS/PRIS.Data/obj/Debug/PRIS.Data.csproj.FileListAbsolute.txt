@@ -3,3 +3,23 @@ C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\PRIS.Da
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.csprojResolveAssemblyReference.cache
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\PRIS.Data.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\PRIS.Data.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.csprojResolveAssemblyReference.cache
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\PRIS.Data.dll.config
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\EntityFramework.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\EntityFramework.xml
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\PRIS.Data.dll.config
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\PRIS.Data.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\PRIS.Data.pdb
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\EntityFramework.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\EntityFramework.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.csprojResolveAssemblyReference.cache
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Data\obj\Debug\PRIS.Data.pdb

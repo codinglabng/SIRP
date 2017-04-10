@@ -2,3 +2,22 @@ C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRI
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.pdb
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.pdb
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.dll.config
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.xml
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.csprojResolveAssemblyReference.cache
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.csprojResolveAssemblyReference.cache
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.pdb
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.pdb
