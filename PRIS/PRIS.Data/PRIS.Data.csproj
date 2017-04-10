@@ -54,59 +54,61 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Models\Activity.cs">
-      <DependentUpon>PrisDb.tt</DependentUpon>
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\App.cs">
-      <DependentUpon>PrisDb.tt</DependentUpon>
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ClientsTable.cs">
-      <DependentUpon>PrisDb.tt</DependentUpon>
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PrisDb.Context.cs">
+    <Compile Include="Models\PRIS.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PrisDb.Context.tt</DependentUpon>
+      <DependentUpon>PRIS.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PrisDb.cs">
+    <Compile Include="Models\PRIS.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PrisDb.tt</DependentUpon>
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PrisDb.Designer.cs">
+    <Compile Include="Models\PRIS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PrisDb.edmx</DependentUpon>
+      <DependentUpon>PRIS.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\PublishApp.cs">
-      <DependentUpon>PrisDb.tt</DependentUpon>
+      <DependentUpon>PRIS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>PRIS.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Models\PrisDb.edmx">
+    <EntityDeploy Include="Models\PRIS.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>PrisDb.Designer.cs</LastGenOutput>
+      <LastGenOutput>PRIS.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <None Include="App.Config" />
-    <None Include="Models\PrisDb.edmx.diagram">
-      <DependentUpon>PrisDb.edmx</DependentUpon>
+    <None Include="Models\PRIS.edmx.diagram">
+      <DependentUpon>PRIS.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Models\PrisDb.Context.tt">
+    <Content Include="Models\PRIS.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PrisDb.edmx</DependentUpon>
-      <LastGenOutput>PrisDb.Context.cs</LastGenOutput>
+      <DependentUpon>PRIS.edmx</DependentUpon>
+      <LastGenOutput>PRIS.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\PrisDb.tt">
+    <Content Include="Models\PRIS.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PrisDb.edmx</DependentUpon>
-      <LastGenOutput>PrisDb.cs</LastGenOutput>
+      <DependentUpon>PRIS.edmx</DependentUpon>
+      <LastGenOutput>PRIS.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
