@@ -57,213 +57,62 @@ C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.We
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.csprojResolveAssemblyReference.cache
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.pdb
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\ApplicationInsights.config
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csc.exe
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\vbc.exe
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\VBCSCompiler.exe
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.dll.config
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.pdb
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Antlr3.Runtime.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Web.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Newtonsoft.Json.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Net.Http.Formatting.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Helpers.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.WebHost.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Optimization.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Razor.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Razor.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\WebGrease.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Web.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Helpers.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Optimization.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Razor.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Razor.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Antlr3.Runtime.pdb
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\Newtonsoft.Json.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Net.Http.Formatting.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.WebHost.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.csprojResolveAssemblyReference.cache
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.pdb
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csc.exe.config
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csc.rsp
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csi.exe
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csi.exe.config
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csi.rsp
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.AppContext.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Console.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Diagnostics.Process.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.Compression.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.Pipes.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Claims.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Threading.Thread.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.ValueTuple.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\vbc.exe.config
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\vbc.rsp
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.SqlServer.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Core.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Data.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Repositories.dll
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Core.pdb
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Data.pdb
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Repositories.pdb
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.xml
-C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.SqlServer.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.csprojResolveAssemblyReference.cache
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.pdb
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\ApplicationInsights.config
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csc.exe
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csc.exe.config
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csc.rsp
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csi.exe
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csi.exe.config
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csi.rsp
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.AppContext.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Console.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Diagnostics.Process.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.Compression.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.IO.Pipes.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Claims.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Threading.Thread.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.ValueTuple.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Xml.XPath.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\vbc.exe
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\vbc.exe.config
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\vbc.rsp
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\VBCSCompiler.exe
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.dll.config
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.pdb
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Antlr3.Runtime.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.SqlServer.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Web.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.ApplicationInsights.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Newtonsoft.Json.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Core.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Data.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Repositories.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Net.Http.Formatting.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Helpers.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.WebHost.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Optimization.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Razor.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Deployment.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Razor.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\WebGrease.dll
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Core.pdb
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Data.pdb
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Repositories.pdb
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Antlr3.Runtime.pdb
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.SqlServer.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Web.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.ApplicationInsights.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\Newtonsoft.Json.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Helpers.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Optimization.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Razor.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Deployment.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Razor.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Net.Http.Formatting.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.xml
-C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.WebHost.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\ApplicationInsights.config
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\csc.exe
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\vbc.exe
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\VBCSCompiler.exe
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.dll.config
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.pdb
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Antlr3.Runtime.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Web.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Newtonsoft.Json.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Net.Http.Formatting.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Helpers.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.WebHost.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Optimization.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Razor.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Razor.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\WebGrease.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Web.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Helpers.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Optimization.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Razor.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Razor.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Antlr3.Runtime.pdb
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\Newtonsoft.Json.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Net.Http.Formatting.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.WebHost.xml
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.csprojResolveAssemblyReference.cache
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.dll
+C:\Users\USER\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.pdb
