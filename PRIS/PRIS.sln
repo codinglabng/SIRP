@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRIS", "PRIS\PRIS.csproj", "{2C641461-8362-42B2-AA66-29641956648C}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRIS.UnitTest", "PRIS.UnitT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRIS.Services", "PRIS.Services\PRIS.Services.csproj", "{E1CC4708-8300-4992-A486-5D9E2A7FCB2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRIS.IdentityServer", "PRIS.IdentityServer\PRIS.IdentityServer.csproj", "{1A4DC11D-43E7-42F0-8CB1-013CBAC4599B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRIS.IdentityServer", "..\..\PRIS.IdentityServer\PRIS.IdentityServer.csproj", "{1A4DC11D-43E7-42F0-8CB1-013CBAC4599B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
