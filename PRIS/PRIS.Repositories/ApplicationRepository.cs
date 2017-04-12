@@ -23,15 +23,16 @@ namespace PRIS.Repositories
             return app;
         }
 
-        public App GetAppsById(int Id)
+        public App GetAppsById(int id)
         {
-            var app = _db.Apps.FirstOrDefault(e => e.Id == Id);
+            var app = _db.Apps.FirstOrDefault(e => e.Id == id);
             return app;
         }
 
         public void Remove(App app)
         {
             _db.Apps.Remove(app);
+            Save();
         }
 
         public void Save()
