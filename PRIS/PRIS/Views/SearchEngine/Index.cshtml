@@ -1,4 +1,5 @@
 ﻿
+@model IEnumerable<PRIS.Data.Models.App>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -17,33 +18,69 @@
                         <h2 class="card-inside-title" style="font-weight:bold">
                             PRIS SEARCH
                         </h2>
-                        
-                    </div>
+                     </div>
+
                     <div class="body">
                         <h2 class="card-inside-title"></h2>
                         <div class="row clearfix">
                             <div class="col-sm-12">
-                                
-                                <div class="right-inner-addon ">
-                                    <i class="icon-search"></i>
-                                    <input type="search" class="form-control" placeholder="Search" />
-                                    
-                                </div>
-                                
+                                <form method="get">
+                                    <div class="right-inner-addon ">
+                                       <input type="search" class="form-control" placeholder="Search" name="searchString"><br>
+                                          <span class="input-group-btn">
+                                           <button type="submit" class="btn btn-primary">Go</button>
+                                           </span>
+                                     </div>
+                                </form>
                               </div>
                         </div>
                         <!--tabs-->
                         <div class="row clearfix">
                             <div class="col-sm-12">
-                                <ul class="nav nav-tabs">
-                                    <li class="active"><a href="#">All</a></li>
-                                    <li><a href="#">Companies</a></li>
-                                    <li><a href="#">Revenue</a></li>
-                                    <li><a href="#">Business Arrangement</a></li>
-                                </ul>
+                                <div>
+
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#All" aria-controls="home" role="tab" data-toggle="tab">All</a></li>
+                                        <li role="presentation"><a href="#Company" aria-controls="profile" role="tab" data-toggle="tab">Company</a></li>
+                                        <li role="presentation"><a href="#Revenue" aria-controls="messages" role="tab" data-toggle="tab">Revenue</a></li>
+                                        <li role="presentation"><a href="#BusinessArrangement" aria-controls="settings" role="tab" data-toggle="tab">Business Arrangement</a></li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane fade in active" id="All">
+                                        @foreach (var item in Model)
+                                        {
+                                            <div class="row clearfix">
+                                                <div class="col-sm-12">
+                                                    <ul>
+                                                        <li>@Html.DisplayFor(modelItem => item.Name)</li>
+                                                        <li>@Html.DisplayFor(modelItem => item.Description)</li>
+                                                        <li>@Html.DisplayFor(modelItem => item.Url)</li>
+                                                        <li>@Html.DisplayFor(modelItem => item.Author)</li>
+                                                        <li>@Html.DisplayFor(modelItem => item.DateCreated)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        }
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="Company">
+                                           
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="Revenue">
+                                           
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="BusinessArrangement">
+                                            
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
 
                         </div>
+                                               
                     </div>
                 </div>
             </div>

@@ -1,7 +1,3 @@
-C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.dll
-C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.pdb
-C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.dll
-C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.pdb
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.dll
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.pdb
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.dll
@@ -12,8 +8,12 @@ C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramewor
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.xml
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.pdb
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.xml
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.pdb

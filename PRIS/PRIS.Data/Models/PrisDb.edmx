@@ -34,13 +34,17 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ScopeId" Type="int" />
+          <Property Name="ClientId" Type="int" />
           <Property Name="Enabled" Type="nvarchar" MaxLength="50" />
           <Property Name="ClientName" Type="nvarchar" MaxLength="50" />
-          <Property Name="ClientId" Type="int" />
           <Property Name="ClientSecret" Type="nvarchar" MaxLength="100" />
           <Property Name="RedirectUrl" Type="nvarchar" MaxLength="50" />
           <Property Name="LogoutRedirectUrl" Type="nvarchar" MaxLength="50" />
-          <Property Name="AllowedScopes" Type="text" />
+          <Property Name="Description" Type="text" />
+          <Property Name="Logo" Type="nvarchar" MaxLength="100" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="DateModified" Type="datetime" />
         </EntityType>
         <EntityType Name="PublishApp">
           <Key>
@@ -56,6 +60,13 @@
           <Property Name="PublishDate" Type="datetime" />
           <Property Name="Publisher" Type="datetime" />
         </EntityType>
+        <EntityType Name="Scope">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="text" />
+        </EntityType>
         <Association Name="FK_Activity_Activity">
           <End Role="Apps" Type="Self.Apps" Multiplicity="1" />
           <End Role="Activity" Type="Self.Activity" Multiplicity="*" />
@@ -65,6 +76,18 @@
             </Principal>
             <Dependent Role="Activity">
               <PropertyRef Name="AppId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ClientsTable_Scope">
+          <End Role="Scope" Type="Self.Scope" Multiplicity="0..1" />
+          <End Role="ClientsTable" Type="Self.ClientsTable" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Scope">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ClientsTable">
+              <PropertyRef Name="ScopeId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -85,9 +108,14 @@
           <EntitySet Name="Apps" EntityType="Self.Apps" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ClientsTable" EntityType="Self.ClientsTable" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="PublishApp" EntityType="Self.PublishApp" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Scope" EntityType="Self.Scope" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_Activity_Activity" Association="Self.FK_Activity_Activity">
             <End Role="Apps" EntitySet="Apps" />
             <End Role="Activity" EntitySet="Activity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ClientsTable_Scope" Association="Self.FK_ClientsTable_Scope">
+            <End Role="Scope" EntitySet="Scope" />
+            <End Role="ClientsTable" EntitySet="ClientsTable" />
           </AssociationSet>
           <AssociationSet Name="FK_PublishApp_PublishApp" Association="Self.FK_PublishApp_PublishApp">
             <End Role="Apps" EntitySet="Apps" />
@@ -131,13 +159,18 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ScopeId" Type="Int32" />
+          <Property Name="ClientId" Type="Int32" />
           <Property Name="Enabled" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="ClientName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ClientId" Type="Int32" />
           <Property Name="ClientSecret" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="RedirectUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="LogoutRedirectUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="AllowedScopes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Logo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+          <Property Name="DateModified" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Scope" Relationship="Self.FK_ClientsTable_Scope" FromRole="ClientsTable" ToRole="Scope" />
         </EntityType>
         <EntityType Name="PublishApp">
           <Key>
@@ -153,6 +186,14 @@
           <Property Name="PublishDate" Type="DateTime" Precision="3" />
           <Property Name="Publisher" Type="DateTime" Precision="3" />
           <NavigationProperty Name="App" Relationship="Self.FK_PublishApp_PublishApp" FromRole="PublishApp" ToRole="Apps" />
+        </EntityType>
+        <EntityType Name="Scope">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ClientsTables" Relationship="Self.FK_ClientsTable_Scope" FromRole="Scope" ToRole="ClientsTable" />
         </EntityType>
         <Association Name="FK_Activity_Activity">
           <End Role="Apps" Type="Self.App" Multiplicity="1" />
@@ -178,11 +219,24 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_ClientsTable_Scope">
+          <End Role="Scope" Type="Self.Scope" Multiplicity="0..1" />
+          <End Role="ClientsTable" Type="Self.ClientsTable" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Scope">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ClientsTable">
+              <PropertyRef Name="ScopeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="PrisDbEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Activities" EntityType="Self.Activity" />
           <EntitySet Name="Apps" EntityType="Self.App" />
           <EntitySet Name="ClientsTables" EntityType="Self.ClientsTable" />
           <EntitySet Name="PublishApps" EntityType="Self.PublishApp" />
+          <EntitySet Name="Scopes" EntityType="Self.Scope" />
           <AssociationSet Name="FK_Activity_Activity" Association="Self.FK_Activity_Activity">
             <End Role="Apps" EntitySet="Apps" />
             <End Role="Activity" EntitySet="Activities" />
@@ -190,6 +244,10 @@
           <AssociationSet Name="FK_PublishApp_PublishApp" Association="Self.FK_PublishApp_PublishApp">
             <End Role="Apps" EntitySet="Apps" />
             <End Role="PublishApp" EntitySet="PublishApps" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ClientsTable_Scope" Association="Self.FK_ClientsTable_Scope">
+            <End Role="Scope" EntitySet="Scopes" />
+            <End Role="ClientsTable" EntitySet="ClientsTables" />
           </AssociationSet>
         </EntityContainer>
       </Schema>
@@ -228,13 +286,17 @@
             <EntityTypeMapping TypeName="PrisDbModel.ClientsTable">
               <MappingFragment StoreEntitySet="ClientsTable">
                 <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ScopeId" ColumnName="ScopeId" />
+                <ScalarProperty Name="ClientId" ColumnName="ClientId" />
                 <ScalarProperty Name="Enabled" ColumnName="Enabled" />
                 <ScalarProperty Name="ClientName" ColumnName="ClientName" />
-                <ScalarProperty Name="ClientId" ColumnName="ClientId" />
                 <ScalarProperty Name="ClientSecret" ColumnName="ClientSecret" />
                 <ScalarProperty Name="RedirectUrl" ColumnName="RedirectUrl" />
                 <ScalarProperty Name="LogoutRedirectUrl" ColumnName="LogoutRedirectUrl" />
-                <ScalarProperty Name="AllowedScopes" ColumnName="AllowedScopes" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Logo" ColumnName="Logo" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="DateModified" ColumnName="DateModified" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -250,6 +312,14 @@
                 <ScalarProperty Name="ReportTypes" ColumnName="ReportTypes" />
                 <ScalarProperty Name="PublishDate" ColumnName="PublishDate" />
                 <ScalarProperty Name="Publisher" ColumnName="Publisher" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Scopes">
+            <EntityTypeMapping TypeName="PrisDbModel.Scope">
+              <MappingFragment StoreEntitySet="Scope">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

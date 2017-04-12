@@ -3,23 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PRIS.Data.Models;
+using PRIS.Repositories;
 
 namespace PRIS.Controllers
 {
     public class SearchEngineController : Controller
     {
+
+        private ApplicationRepository _ApplicationRepository = new ApplicationRepository();
         // GET: SearchEngine
         public ActionResult Index(string searchString)
         {
-            /*
-            var prissearch = from c in db.PRIS
-                             select c;
+
+            var prissearch = _ApplicationRepository.GetApps();
+
+                
+                //var prissearch = from c in _ApplicationRepository.GetApps();
+                 //                   select c;
             if (!string.IsNullOrEmpty(searchString))
             {
-                prissearch = prissearch.Where(s => )
+                prissearch = prissearch.Where(s => s.Name.ToLower().Contains(searchString) && s.Description.ToLower().Contains(searchString) && s.Url.Contains(searchString) && s.Author.Contains(searchString));
             }
-            */
-            return View();
+            
+            return View(prissearch);
+            //return View();
         }
 
         // GET: SearchEngine/Details/5

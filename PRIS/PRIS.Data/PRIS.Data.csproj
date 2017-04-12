@@ -52,7 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Models\Activity.cs">
       <DependentUpon>PrisDb.tt</DependentUpon>
     </Compile>
@@ -80,6 +79,9 @@
     <Compile Include="Models\PublishApp.cs">
       <DependentUpon>PrisDb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Scope.cs">
+      <DependentUpon>PrisDb.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -96,7 +98,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Models\PrisDb.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

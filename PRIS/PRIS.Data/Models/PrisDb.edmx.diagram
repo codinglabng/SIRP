@@ -4,13 +4,15 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="76e7ef38d0874aa09e46ceee582edae2" Name="Diagram1">
+      <Diagram DiagramId="9f6d6dff400941e6a3d519e9d04d33ec" Name="Diagram1">
         <EntityTypeShape EntityType="PrisDbModel.Activity" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="PrisDbModel.App" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="PrisDbModel.ClientsTable" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrisDbModel.ClientsTable" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="PrisDbModel.PublishApp" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrisDbModel.Scope" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
         <AssociationConnector Association="PrisDbModel.FK_Activity_Activity" ManuallyRouted="false" />
         <AssociationConnector Association="PrisDbModel.FK_PublishApp_PublishApp" ManuallyRouted="false" />
+        <AssociationConnector Association="PrisDbModel.FK_ClientsTable_Scope" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
