@@ -52,7 +52,6 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="IApplicationRepositories.cs" />
-    <Compile Include="ISearchEngineRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

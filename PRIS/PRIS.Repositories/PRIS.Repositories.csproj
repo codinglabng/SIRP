@@ -53,6 +53,7 @@
     <Compile Include="ApplicationRepository.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PRIS.Core\PRIS.Core.csproj">

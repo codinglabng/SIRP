@@ -323,6 +323,13 @@
                         </ul>
                     </li>
 
+    function signup_flip()
+    {
+      $("#loginform").css({"-webkit-transition":"-webkit-transform 0.9s","transition":" transform 0.9s"});
+      $("#loginform").css({"-moz-transform":"scaleX(-1)","-o-transform":"scaleX(-1)","-webkit-transform":"scaleX(-1)","transform":"scaleX(-1)"});
+      $("#container").css("-webkit-transform","scaleX(-1)");
+      document.getElementById("container").innerHTML = "<h2 id='myd'> SignUp Point</h2><hr width='50%' /><p id='fad'>E-Mail</p><div class='form-group'><div class='input-group'><input type='email' required name='email' class='form-control' id='input'><span class='bar'></span><label>Email</label><span class='input-group-addon'><i class='glyphicon glyphicon-envelope'></i></span></div></div> <p id='fad'>User ID</p><div class='form-group'><div class='input-group'><input type='text' required name='userid' class='form-control' id='input'><span class='bar'></span><label>User ID</label><span class='input-group-addon'><i class='glyphicon glyphicon-user'></i></span></div></div> <p id='fad'>Password</p><div class='form-group'><div class='input-group'> <input type='password' class='form-control'  name='password' required><span class='bar'></span> <label>Password</label><span class='input-group-addon'> <i class='glyphicon glyphicon-lock'></i> </span></div></div><div class='form-group'> <input type='submit' value='Sign Up' class='btn btn-danger'/><input type='button' value='Registered?  Login!' onclick='login_flip();'>";
+    }
 
                     <li>
                         <a href="pages/typography.html">
