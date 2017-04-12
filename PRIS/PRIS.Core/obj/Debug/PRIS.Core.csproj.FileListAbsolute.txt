@@ -27,3 +27,11 @@ C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.Sq
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.csprojResolveAssemblyReference.cache
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.dll
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.pdb
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Owin.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.pdb
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
