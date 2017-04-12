@@ -30,3 +30,16 @@ C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repos
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.pdb
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Repositories.dll
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Repositories.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Repositories.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Repositories.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Core.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Data.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Core.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\PRIS.Data.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Repositories\obj\Debug\PRIS.Repositories.pdb
