@@ -25,6 +25,45 @@
     <Property Name="DateCreated" Type="DateTime" Precision="3" />
     <Property Name="DateModified" Type="DateTime" Precision="3" />
     <NavigationProperty Name="Activities" Relationship="Self.FK_Activity_Activity" FromRole="Apps" ToRole="Activity" />
+    <NavigationProperty Name="PublishApps" Relationship="Self.FK_PublishApp_PublishApp" FromRole="Apps" ToRole="PublishApp" />
+  </EntityType>
+  <EntityType Name="ClientsTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Enabled" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientId" Type="Int32" />
+    <Property Name="ClientSecret" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="RedirectUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LogoutRedirectUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AllowedScopes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PublishApp">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AppId" Type="Int32" />
+    <Property Name="Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="AllowedUsers" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="QueryKeywords" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ReportTypes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="PublishDate" Type="DateTime" Precision="3" />
+    <Property Name="Publisher" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="App" Relationship="Self.FK_PublishApp_PublishApp" FromRole="PublishApp" ToRole="Apps" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
   <Association Name="FK_Activity_Activity">
     <End Role="Apps" Type="Self.App" Multiplicity="1" />
@@ -38,12 +77,31 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_PublishApp_PublishApp">
+    <End Role="Apps" Type="Self.App" Multiplicity="0..1" />
+    <End Role="PublishApp" Type="Self.PublishApp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Apps">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PublishApp">
+        <PropertyRef Name="AppId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="PrisDbEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Activities" EntityType="Self.Activity" />
     <EntitySet Name="Apps" EntityType="Self.App" />
+    <EntitySet Name="ClientsTables" EntityType="Self.ClientsTable" />
+    <EntitySet Name="PublishApps" EntityType="Self.PublishApp" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
     <AssociationSet Name="FK_Activity_Activity" Association="Self.FK_Activity_Activity">
       <End Role="Apps" EntitySet="Apps" />
       <End Role="Activity" EntitySet="Activities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PublishApp_PublishApp" Association="Self.FK_PublishApp_PublishApp">
+      <End Role="Apps" EntitySet="Apps" />
+      <End Role="PublishApp" EntitySet="PublishApps" />
     </AssociationSet>
   </EntityContainer>
 </Schema>
