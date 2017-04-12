@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PrisDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="AppId" Type="int" Nullable="false" />
+    <Property Name="Action" Type="text" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Apps">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="Logo" Type="nvarchar" MaxLength="100" />
+    <Property Name="Url" Type="nvarchar" MaxLength="100" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="Author" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateCreated" Type="datetime" />
+    <Property Name="DateModified" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ClientsTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Enabled" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="ClientSecret" Type="nvarchar" MaxLength="100" />
+    <Property Name="RedirectUrl" Type="nvarchar" MaxLength="50" />
+    <Property Name="LogoutRedirectUrl" Type="nvarchar" MaxLength="50" />
+    <Property Name="AllowedScopes" Type="text" />
+  </EntityType>
+  <EntityType Name="PublishApp">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AppId" Type="int" />
+    <Property Name="Source" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="text" />
+    <Property Name="AllowedUsers" Type="text" />
+    <Property Name="QueryKeywords" Type="text" />
+    <Property Name="ReportTypes" Type="text" />
+    <Property Name="PublishDate" Type="datetime" />
+    <Property Name="Publisher" Type="datetime" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Activity_Activity">
+    <End Role="Apps" Type="Self.Apps" Multiplicity="1" />
+    <End Role="Activity" Type="Self.Activity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Apps">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Activity">
+        <PropertyRef Name="AppId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PublishApp_PublishApp">
+    <End Role="Apps" Type="Self.Apps" Multiplicity="0..1" />
+    <End Role="PublishApp" Type="Self.PublishApp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Apps">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PublishApp">
+        <PropertyRef Name="AppId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PrisDbModelStoreContainer">
+    <EntitySet Name="Activity" EntityType="Self.Activity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Apps" EntityType="Self.Apps" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClientsTable" EntityType="Self.ClientsTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PublishApp" EntityType="Self.PublishApp" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Activity_Activity" Association="Self.FK_Activity_Activity">
+      <End Role="Apps" EntitySet="Apps" />
+      <End Role="Activity" EntitySet="Activity" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PublishApp_PublishApp" Association="Self.FK_PublishApp_PublishApp">
+      <End Role="Apps" EntitySet="Apps" />
+      <End Role="PublishApp" EntitySet="PublishApp" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

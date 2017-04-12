@@ -12,3 +12,20 @@ C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramewor
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.xml
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Simon Ubi\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.pdb
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.dll
+C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.pdb
