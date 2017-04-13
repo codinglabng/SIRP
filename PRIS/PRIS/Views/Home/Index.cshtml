@@ -20,15 +20,14 @@
                 <div id="container">
                     <h2 id="myd">Login Point</h2>
                     <hr width="50%" />
-                    <p id="fad">User ID</p>
+                    <p id="fad">Username</p>
                     <div class="form-group">
                         <div class="input-group">
 
-
-                            <input type="text" required name="userid" class="form-control" id="input">
+                            <input required id="password" name="password" type="password" class="form-control" id="input" placeholder="Password" ng-model="model.password" maxlength="100" autocomplete="off" focus-if="model.username">
 
                             <span class="bar"></span>
-                            <label>User ID</label><span class="input-group-addon">
+                            <label>Username</label><span class="input-group-addon">
                                 <i class="glyphicon glyphicon-user"></i>
                             </span>
                         </div>

@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PRIS.Core;
+﻿using PRIS.Core;
 using PRIS.Data.Models;
+using System.Linq;
 
 namespace PRIS.Repositories
 {
     public class ApplicationRepository : IApplicationRepositories
     {
-        private readonly PrisDbEntities _db = new PrisDbEntities();
+        private readonly PrisEntities _db = new PrisEntities();
         public void Add(App app)
         {
             _db.Apps.Add(app);

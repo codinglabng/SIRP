@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!-- Start of login script
+    <link rel="stylesheet" type="text/css" href="~/Content/animation_style.css">-->
+    <script type="text/javascript">
+
+    function login_flip()
+    {
+      $("#loginform").css({"-webkit-transition":"-webkit-transform 0.9s","transition":" transform 0.9s"});
+      $("#loginform").css({"-moz-transform":"scaleX(1)","-o-transform":"scaleX(1)","-webkit-transform":"scaleX(1)","transform":"scaleX(1)"});
+      $("#container").css("-webkit-transform","scaleX(1)");
+      document.getElementById("container").innerHTML = "<h2 id='myd'>Login Point</h2><hr width='50%' /><p id='fad'>User ID</p><div class='form-group'><div class='input-group'><input type='text' required name='userid' class='form-control' id='input'><span class='bar'></span><label>User ID</label><span class='input-group-addon'><i class='glyphicon glyphicon-user'></i></span></div></div> <p id='fad'>Password</p><div class='form-group'><div class='input-group'> <input type='password' class='form-control'  name='password' required><span class='bar'></span> <label>Password</label><span class='input-group-addon'> <i class='glyphicon glyphicon-lock'></i> </span></div></div><div class='form-group'> <input type='submit' value='Login' class='btn btn-danger'/><input type='button' value='New User? Register!' onclick='signup_flip();'> <h4><a href='' style='color:white'> Forget Password</a></h4><h4><a href='' style='color:white'> Resend Activation EMail</a></h4></div>"
+  }
+
+    function signup_flip()
+    {
+      $("#loginform").css({"-webkit-transition":"-webkit-transform 0.9s","transition":" transform 0.9s"});
+      $("#loginform").css({"-moz-transform":"scaleX(-1)","-o-transform":"scaleX(-1)","-webkit-transform":"scaleX(-1)","transform":"scaleX(-1)"});
+      $("#container").css("-webkit-transform","scaleX(-1)");
+      document.getElementById("container").innerHTML = "<h2 id='myd'> SignUp Point</h2><hr width='50%' /><p id='fad'>E-Mail</p><div class='form-group'><div class='input-group'><input type='email' required name='email' class='form-control' id='input'><span class='bar'></span><label>Email</label><span class='input-group-addon'><i class='glyphicon glyphicon-envelope'></i></span></div></div> <p id='fad'>User ID</p><div class='form-group'><div class='input-group'><input type='text' required name='userid' class='form-control' id='input'><span class='bar'></span><label>User ID</label><span class='input-group-addon'><i class='glyphicon glyphicon-user'></i></span></div></div> <p id='fad'>Password</p><div class='form-group'><div class='input-group'> <input type='password' class='form-control'  name='password' required><span class='bar'></span> <label>Password</label><span class='input-group-addon'> <i class='glyphicon glyphicon-lock'></i> </span></div></div><div class='form-group'> <input type='submit' value='Sign Up' class='btn btn-danger'/><input type='button' value='Registered?  Login!' onclick='login_flip();'>";
+    }
+
+    </script>
+
+    <!-- end of login script -->
+
+</head>
+<body class="jumbotron" style="padding:0px; margin:0px">
+    <div id="hd">PRIS</div>
+    <div class="container body-content" style="top:60px; position:relative">
+
+        @RenderBody()
+
+    </div><div>
+        <hr style="color:black" /><br /> <footer style="background-color:#cc6666">
+            <h3 style="color:black">&copy; @DateTime.Now.Year - PRIS</h3>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script>
+        $("#input").focus(function () {
+            $("#fad").css("display", "inline").fadeOut(500);
+        });
+    </script>
+</body>
+</html>

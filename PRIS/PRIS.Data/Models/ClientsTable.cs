@@ -15,12 +15,18 @@ namespace PRIS.Data.Models
     public partial class ClientsTable
     {
         public int Id { get; set; }
+        public Nullable<int> ScopeId { get; set; }
+        public Nullable<int> ClientId { get; set; }
         public string Enabled { get; set; }
         public string ClientName { get; set; }
-        public Nullable<int> ClientId { get; set; }
         public string ClientSecret { get; set; }
         public string RedirectUrl { get; set; }
         public string LogoutRedirectUrl { get; set; }
-        public string AllowedScopes { get; set; }
+        public string Description { get; set; }
+        public string Logo { get; set; }
+        public Nullable<System.DateTime> DateCreated { get; set; }
+        public Nullable<System.DateTime> DateModified { get; set; }
+    
+        public virtual Scope Scope { get; set; }
     }
 }
