@@ -11,17 +11,17 @@ namespace PRIS.IdentityServer.IdentityServer
             {
                 new Client
                 {
-                    ClientName = "MVC Client",
+                    ClientName = "VMBS",
                     ClientId = "mvc",
                     Flow = Flows.Implicit,
 
                     RedirectUris = new List<string>
                     {
-                        "http://localhost:53419/account/signInCallback2"
+                        "http://localhost:53419/account/login"
                     },
                     PostLogoutRedirectUris = new List<string>
                     {
-                        "http://localhost:53419/account/signInCallback2"
+                        "http://localhost:53419/account/login"
                     },
                     AllowedScopes = new List<string>
                     {

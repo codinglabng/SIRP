@@ -1,6 +1,7 @@
 ﻿using EmbeddedMvc.IdentityServer;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Configuration;
+using IdentityServer3.Core.Services.Default;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
@@ -28,23 +29,33 @@ namespace PRIS.IdentityServer
 
             app.Map("/identity", idsrvApp =>
                 {
-                    idsrvApp.UseIdentityServer(new IdentityServerOptions
-                    {
-                        SiteName = "PRIS IdentityServer",
-                        SigningCertificate = LoadCertificate(),
+                    var factory = new IdentityServerServiceFactory()
+                    .UseInMemoryUsers(Users.Get())
+                    .UseInMemoryClients(Clients.Get())
+                    .UseInMemoryScopes(Scopes.Get());
 
-                        Factory = new IdentityServerServiceFactory()
-                                    .UseInMemoryUsers(Users.Get())
-                                    .UseInMemoryClients(Clients.Get())
-                                    .UseInMemoryScopes(Scopes.Get()),
+                    var viewOptions = new DefaultViewServiceOptions();
+                    viewOptions.Stylesheets.Add("~/Content/Site.css");
+                    viewOptions.Stylesheets.Add("~/Content/animation-style_css");
+
+                    viewOptions.CacheViews = false;
+                    factory.ConfigureDefaultViewService(viewOptions);
+
+                    var options = new IdentityServerOptions
+                    {
+                        SiteName = "PRIS",
+
+                        SigningCertificate = LoadCertificate(),
+                        Factory = factory,
                         RequireSsl = false,
 
-                        AuthenticationOptions = new IdentityServer3.Core.Configuration.AuthenticationOptions
+                        AuthenticationOptions = new AuthenticationOptions
                         {
-                            EnablePostSignOutAutoRedirect = true,
-                            IdentityProviders = ConfigureIdentityProviders
+                            IdentityProviders = ConfigureAdditionalIdentityProviders,
                         }
-                    });
+                    };
+
+                    idsrvApp.UseIdentityServer(options);
                 });
 
             app.UseResourceAuthorization(new AuthorizationManager());
@@ -54,7 +65,7 @@ namespace PRIS.IdentityServer
                 AuthenticationType = "Cookies"
             });
 
-
+            #region openIdConnect
             //app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
             //{
             //    Authority = "https://localhost:44319/identity",
@@ -117,6 +128,40 @@ namespace PRIS.IdentityServer
             //            }
             //    }
             //});
+            #endregion
+        }
+
+        public static void ConfigureAdditionalIdentityProviders(IAppBuilder app, string signInAsType)
+        {
+            var google = new GoogleOAuth2AuthenticationOptions
+            {
+                AuthenticationType = "Google",
+                SignInAsAuthenticationType = signInAsType,
+                ClientId = "767400843187-8boio83mb57ruogr9af9ut09fkg56b27.apps.googleusercontent.com",
+                ClientSecret = "5fWcBT0udKY7_b6E3gEiJlze"
+            };
+            app.UseGoogleAuthentication(google);
+
+            /*
+
+            var fb = new FacebookAuthenticationOptions
+            {
+                AuthenticationType = "Facebook",
+                SignInAsAuthenticationType = signInAsType,
+                AppId = "676607329068058",
+                AppSecret = "9d6ab75f921942e61fb43a9b1fc25c63"
+            };
+            app.UseFacebookAuthentication(fb);
+
+            var twitter = new TwitterAuthenticationOptions
+            {
+                AuthenticationType = "Twitter",
+                SignInAsAuthenticationType = signInAsType,
+                ConsumerKey = "N8r8w7PIepwtZZwtH066kMlmq",
+                ConsumerSecret = "df15L2x6kNI50E4PYcHS0ImBQlcGIt6huET8gQN41VFpUCwNjM"
+            };
+            app.UseTwitterAuthentication(twitter);
+            */
         }
 
         private void ConfigureIdentityProviders(IAppBuilder app, string signInAsType)

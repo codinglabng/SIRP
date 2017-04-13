@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="PrisDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="PrisModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Activity">
           <Key>
             <PropertyRef Name="Id" />
@@ -34,13 +34,17 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ScopeId" Type="int" />
+          <Property Name="ClientId" Type="int" />
           <Property Name="Enabled" Type="nvarchar" MaxLength="50" />
           <Property Name="ClientName" Type="nvarchar" MaxLength="50" />
-          <Property Name="ClientId" Type="int" />
           <Property Name="ClientSecret" Type="nvarchar" MaxLength="100" />
           <Property Name="RedirectUrl" Type="nvarchar" MaxLength="50" />
           <Property Name="LogoutRedirectUrl" Type="nvarchar" MaxLength="50" />
-          <Property Name="AllowedScopes" Type="text" />
+          <Property Name="Description" Type="text" />
+          <Property Name="Logo" Type="nvarchar" MaxLength="100" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="DateModified" Type="datetime" />
         </EntityType>
         <EntityType Name="PublishApp">
           <Key>
@@ -56,15 +60,12 @@
           <Property Name="PublishDate" Type="datetime" />
           <Property Name="Publisher" Type="datetime" />
         </EntityType>
-        <EntityType Name="sysdiagrams">
+        <EntityType Name="Scope">
           <Key>
-            <PropertyRef Name="diagram_id" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="principal_id" Type="int" Nullable="false" />
-          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="version" Type="int" />
-          <Property Name="definition" Type="varbinary(max)" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="text" />
         </EntityType>
         <Association Name="FK_Activity_Activity">
           <End Role="Apps" Type="Self.Apps" Multiplicity="1" />
@@ -75,6 +76,18 @@
             </Principal>
             <Dependent Role="Activity">
               <PropertyRef Name="AppId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ClientsTable_Scope">
+          <End Role="Scope" Type="Self.Scope" Multiplicity="0..1" />
+          <End Role="ClientsTable" Type="Self.ClientsTable" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Scope">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ClientsTable">
+              <PropertyRef Name="ScopeId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -90,15 +103,19 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="PrisDbModelStoreContainer">
+        <EntityContainer Name="PrisModelStoreContainer">
           <EntitySet Name="Activity" EntityType="Self.Activity" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Apps" EntityType="Self.Apps" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ClientsTable" EntityType="Self.ClientsTable" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="PublishApp" EntityType="Self.PublishApp" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Scope" EntityType="Self.Scope" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_Activity_Activity" Association="Self.FK_Activity_Activity">
             <End Role="Apps" EntitySet="Apps" />
             <End Role="Activity" EntitySet="Activity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ClientsTable_Scope" Association="Self.FK_ClientsTable_Scope">
+            <End Role="Scope" EntitySet="Scope" />
+            <End Role="ClientsTable" EntitySet="ClientsTable" />
           </AssociationSet>
           <AssociationSet Name="FK_PublishApp_PublishApp" Association="Self.FK_PublishApp_PublishApp">
             <End Role="Apps" EntitySet="Apps" />
@@ -109,7 +126,7 @@
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="PrisDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="PrisModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="Activity">
           <Key>
             <PropertyRef Name="Id" />
@@ -142,13 +159,18 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ScopeId" Type="Int32" />
+          <Property Name="ClientId" Type="Int32" />
           <Property Name="Enabled" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="ClientName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ClientId" Type="Int32" />
           <Property Name="ClientSecret" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="RedirectUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="LogoutRedirectUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="AllowedScopes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Logo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+          <Property Name="DateModified" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Scope" Relationship="Self.FK_ClientsTable_Scope" FromRole="ClientsTable" ToRole="Scope" />
         </EntityType>
         <EntityType Name="PublishApp">
           <Key>
@@ -165,15 +187,13 @@
           <Property Name="Publisher" Type="DateTime" Precision="3" />
           <NavigationProperty Name="App" Relationship="Self.FK_PublishApp_PublishApp" FromRole="PublishApp" ToRole="Apps" />
         </EntityType>
-        <EntityType Name="sysdiagram">
+        <EntityType Name="Scope">
           <Key>
-            <PropertyRef Name="diagram_id" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="principal_id" Type="Int32" Nullable="false" />
-          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="version" Type="Int32" />
-          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ClientsTables" Relationship="Self.FK_ClientsTable_Scope" FromRole="Scope" ToRole="ClientsTable" />
         </EntityType>
         <Association Name="FK_Activity_Activity">
           <End Role="Apps" Type="Self.App" Multiplicity="1" />
@@ -199,12 +219,24 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="PrisDbEntities" annotation:LazyLoadingEnabled="true">
+        <Association Name="FK_ClientsTable_Scope">
+          <End Role="Scope" Type="Self.Scope" Multiplicity="0..1" />
+          <End Role="ClientsTable" Type="Self.ClientsTable" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Scope">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ClientsTable">
+              <PropertyRef Name="ScopeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PrisEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Activities" EntityType="Self.Activity" />
           <EntitySet Name="Apps" EntityType="Self.App" />
           <EntitySet Name="ClientsTables" EntityType="Self.ClientsTable" />
           <EntitySet Name="PublishApps" EntityType="Self.PublishApp" />
-          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="Scopes" EntityType="Self.Scope" />
           <AssociationSet Name="FK_Activity_Activity" Association="Self.FK_Activity_Activity">
             <End Role="Apps" EntitySet="Apps" />
             <End Role="Activity" EntitySet="Activities" />
@@ -213,15 +245,19 @@
             <End Role="Apps" EntitySet="Apps" />
             <End Role="PublishApp" EntitySet="PublishApps" />
           </AssociationSet>
+          <AssociationSet Name="FK_ClientsTable_Scope" Association="Self.FK_ClientsTable_Scope">
+            <End Role="Scope" EntitySet="Scopes" />
+            <End Role="ClientsTable" EntitySet="ClientsTables" />
+          </AssociationSet>
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="PrisDbModelStoreContainer" CdmEntityContainer="PrisDbEntities">
+        <EntityContainerMapping StorageEntityContainer="PrisModelStoreContainer" CdmEntityContainer="PrisEntities">
           <EntitySetMapping Name="Activities">
-            <EntityTypeMapping TypeName="PrisDbModel.Activity">
+            <EntityTypeMapping TypeName="PrisModel.Activity">
               <MappingFragment StoreEntitySet="Activity">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
@@ -232,7 +268,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Apps">
-            <EntityTypeMapping TypeName="PrisDbModel.App">
+            <EntityTypeMapping TypeName="PrisModel.App">
               <MappingFragment StoreEntitySet="Apps">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -247,21 +283,25 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ClientsTables">
-            <EntityTypeMapping TypeName="PrisDbModel.ClientsTable">
+            <EntityTypeMapping TypeName="PrisModel.ClientsTable">
               <MappingFragment StoreEntitySet="ClientsTable">
                 <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ScopeId" ColumnName="ScopeId" />
+                <ScalarProperty Name="ClientId" ColumnName="ClientId" />
                 <ScalarProperty Name="Enabled" ColumnName="Enabled" />
                 <ScalarProperty Name="ClientName" ColumnName="ClientName" />
-                <ScalarProperty Name="ClientId" ColumnName="ClientId" />
                 <ScalarProperty Name="ClientSecret" ColumnName="ClientSecret" />
                 <ScalarProperty Name="RedirectUrl" ColumnName="RedirectUrl" />
                 <ScalarProperty Name="LogoutRedirectUrl" ColumnName="LogoutRedirectUrl" />
-                <ScalarProperty Name="AllowedScopes" ColumnName="AllowedScopes" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Logo" ColumnName="Logo" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="DateModified" ColumnName="DateModified" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PublishApps">
-            <EntityTypeMapping TypeName="PrisDbModel.PublishApp">
+            <EntityTypeMapping TypeName="PrisModel.PublishApp">
               <MappingFragment StoreEntitySet="PublishApp">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="AppId" ColumnName="AppId" />
@@ -275,14 +315,11 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="sysdiagrams">
-            <EntityTypeMapping TypeName="PrisDbModel.sysdiagram">
-              <MappingFragment StoreEntitySet="sysdiagrams">
-                <ScalarProperty Name="name" ColumnName="name" />
-                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
-                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
-                <ScalarProperty Name="version" ColumnName="version" />
-                <ScalarProperty Name="definition" ColumnName="definition" />
+          <EntitySetMapping Name="Scopes">
+            <EntityTypeMapping TypeName="PrisModel.Scope">
+              <MappingFragment StoreEntitySet="Scope">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

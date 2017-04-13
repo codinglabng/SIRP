@@ -21,3 +21,12 @@ C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.pdb
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.dll
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\PRIS.UnitTest.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\obj\Debug\PRIS.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.UnitTest\bin\Debug\EntityFramework.SqlServer.dll

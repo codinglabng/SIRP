@@ -54,45 +54,45 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Models\Activity.cs">
-      <DependentUpon>PRIS.tt</DependentUpon>
+      <DependentUpon>Pris.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\App.cs">
-      <DependentUpon>PRIS.tt</DependentUpon>
+      <DependentUpon>Pris.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ClientsTable.cs">
-      <DependentUpon>PRIS.tt</DependentUpon>
+      <DependentUpon>Pris.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PRIS.Context.cs">
+    <Compile Include="Models\Pris.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PRIS.Context.tt</DependentUpon>
+      <DependentUpon>Pris.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PRIS.cs">
+    <Compile Include="Models\Pris.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PRIS.tt</DependentUpon>
+      <DependentUpon>Pris.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\PRIS.Designer.cs">
+    <Compile Include="Models\Pris.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PRIS.edmx</DependentUpon>
+      <DependentUpon>Pris.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\PublishApp.cs">
-      <DependentUpon>PRIS.tt</DependentUpon>
+      <DependentUpon>Pris.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\sysdiagram.cs">
-      <DependentUpon>PRIS.tt</DependentUpon>
+    <Compile Include="Models\Scope.cs">
+      <DependentUpon>Pris.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Models\PRIS.edmx">
+    <EntityDeploy Include="Models\Pris.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>PRIS.Designer.cs</LastGenOutput>
+      <LastGenOutput>Pris.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <None Include="App.Config" />
-    <None Include="Models\PRIS.edmx.diagram">
-      <DependentUpon>PRIS.edmx</DependentUpon>
+    <None Include="Models\Pris.edmx.diagram">
+      <DependentUpon>Pris.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -100,15 +100,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Models\PRIS.Context.tt">
+    <Content Include="Models\Pris.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PRIS.edmx</DependentUpon>
-      <LastGenOutput>PRIS.Context.cs</LastGenOutput>
+      <DependentUpon>Pris.edmx</DependentUpon>
+      <LastGenOutput>Pris.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\PRIS.tt">
+    <Content Include="Models\Pris.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PRIS.edmx</DependentUpon>
-      <LastGenOutput>PRIS.cs</LastGenOutput>
+      <DependentUpon>Pris.edmx</DependentUpon>
+      <LastGenOutput>Pris.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

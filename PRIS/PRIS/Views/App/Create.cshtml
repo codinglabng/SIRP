@@ -1,0 +1,181 @@
+﻿@model PRIS.Data.Models.App
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="block-header">
+            <h2>Create App</h2>
+        </div>
+        <!-- Input -->
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="header">
+                        <h2>
+                            Create App
+                            
+                        </h2>
+                        <ul class="header-dropdown m-r--5">
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="material-icons">more_vert</i>
+                                </a>
+                                <ul class="dropdown-menu pull-right">
+                                    <li><a href="javascript:void(0);">Action</a></li>
+                                    <li><a href="javascript:void(0);">Another action</a></li>
+                                    <li><a href="javascript:void(0);">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="body">
+                       
+
+                        <h2 class="card-inside-title">Create App</h2>
+                        <div class="">
+                            @Html.ValidationSummary(true, "", new { @class = " alert alert-danger" })
+                        </div>
+                       @using (Html.BeginForm())
+                       {
+                        @Html.AntiForgeryToken()
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                                            <label class="form-label">Name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                           @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                                            <label class="form-label">Description</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float form-group-lg">
+                                        <div class="form-line">
+                                            @Html.EditorFor(model => model.Logo, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Logo, "", new { @class = "text-danger" })
+                                            <label class="form-label">Logo</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            @Html.EditorFor(model => model.Url, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Url, "", new { @class = "text-danger" })
+                                            <label class="form-label">Url</label>
+                                        </div>
+                                    </div>
+                                    </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float form-group-sm">
+                                        <div class="form-line">
+                                            @Html.EditorFor(model => model.Status, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+
+                                            <label class="form-label">Status</label>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                <!--<div class="col-sm-12">
+                                    <div class="form-group form-float form-group-sm">
+                                        <div class="form-line">
+                                            <select class="form-control show-tick">
+                                                <option value="">-- Please select --</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="40">40</option>
+                                                <option value="50">50</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>-->
+
+                                <div class="col-sm-12">
+
+                                    <div class="form-group form-float form-group-sm">
+                                        <div class="form-line">
+                                           @Html.EditorFor(model => model.Author, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Author, "", new { @class = "text-danger" })
+
+                                            <label class="form-label">Author</label>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+
+                                    <div class="form-group form-float form-group-sm">
+                                        <div class="form-line">
+                                            @Html.EditorFor(model => model.DateCreated, new { htmlAttributes = new { @class = "timepicker form-control" } })
+                                            @Html.ValidationMessageFor(model => model.DateCreated, "", new { @class = "text-danger" })
+
+                                            <label class="form-label">Date Created</label>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                
+                               @* <div class="col-sm-12">
+
+    <div class="form-group form-float form-group-sm">
+        <div class="form-line">
+            <input type="text" class="timepicker form-control" placeholder="Please choose a time...">
+
+        </div>
+    </div>
+    </div>*@
+
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float form-group-sm">
+                                        <div class="">
+                                            <input type="submit" class="btn btn-lg btn-success" value="Add">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                       }
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #END# Input -->
+        
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -12,7 +12,7 @@ namespace PRIS.IdentityServer.Controllers
     public class AccountController : Controller
     {
         private const string ClientUri = @"http://localhost:53419";
-        private const string CallbackEndpoint = ClientUri + @"/account/signInCallback2";
+        private const string CallbackEndpoint = ClientUri + @"/account/login";
         private const string IdServBaseUri = @"http://localhost:37705/identity";
         private const string AuthorizeUri = IdServBaseUri + @"/connect/authorize";
         private const string LogoutUri = IdServBaseUri + @"/connect/endsession";

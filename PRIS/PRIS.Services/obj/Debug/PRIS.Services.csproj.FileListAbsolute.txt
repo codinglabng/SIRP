@@ -21,3 +21,12 @@ C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.pdb
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.dll
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\PRIS.Services.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.csprojResolveAssemblyReference.cache
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.dll
