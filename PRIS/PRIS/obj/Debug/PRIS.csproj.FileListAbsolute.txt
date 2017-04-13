@@ -169,16 +169,12 @@ C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.dll.config
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.pdb
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Antlr3.Runtime.dll
-C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.dll
-C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.SqlServer.dll
-C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.PerfCounterCollector.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.ServerTelemetryChannel.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Web.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.WindowsServer.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.ApplicationInsights.dll
-C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Newtonsoft.Json.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Core.dll
@@ -188,7 +184,6 @@ C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Net.Http.Formatting.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Helpers.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.WebHost.dll
-C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Optimization.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Razor.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.WebPages.Deployment.dll
@@ -219,3 +214,10 @@ C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Http.WebHost.xml
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.csprojResolveAssemblyReference.cache
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\obj\Debug\PRIS.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.SqlServer.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS\bin\System.Web.Mvc.xml

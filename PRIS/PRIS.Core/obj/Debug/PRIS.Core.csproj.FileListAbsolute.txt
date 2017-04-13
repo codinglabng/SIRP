@@ -30,9 +30,6 @@ C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.pdb
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.dll.config
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.pdb
-C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.dll
-C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Owin.dll
@@ -47,3 +44,6 @@ C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlS
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.csprojResolveAssemblyReference.cache
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\obj\Debug\PRIS.Core.pdb
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.dll

@@ -13,10 +13,10 @@ namespace PRIS.Data.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class PrisDbEntities : DbContext
+    public partial class PrisEntities : DbContext
     {
-        public PrisDbEntities()
-            : base("name=PrisDbEntities")
+        public PrisEntities()
+            : base("name=PrisEntities")
         {
         }
     
@@ -29,6 +29,6 @@ namespace PRIS.Data.Models
         public virtual DbSet<App> Apps { get; set; }
         public virtual DbSet<ClientsTable> ClientsTables { get; set; }
         public virtual DbSet<PublishApp> PublishApps { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
+        public virtual DbSet<Scope> Scopes { get; set; }
     }
 }
