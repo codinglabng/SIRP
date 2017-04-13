@@ -13,23 +13,24 @@ namespace PRIS.Controllers
     {
 
         private ApplicationRepository _ApplicationRepository = new ApplicationRepository();
+        
         // GET: SearchEngine
         public ActionResult Index(string searchString = null)
         {
 
-            //var prisSearch = _ApplicationRepository.GetApps();
+            var prisSearch = _ApplicationRepository.GetApps();
 
 
-            var prisSearch = from s in _ApplicationRepository.GetApps()
-                             select s;
+            //var prisSearch = from s in _ApplicationRepository.GetApps()
+                             //select s;
             if (!string.IsNullOrEmpty(searchString))
             {
                 prisSearch = prisSearch.Where(s => s.Name.ToLower().Contains(searchString) && s.Description.ToLower().Contains(searchString) && s.Url.Contains(searchString) && s.Author.Contains(searchString));
             }
 
-            ViewData.Model = prisSearch;
-            return View();
-            //return View();
+            //ViewData.Model = prisSearch;
+            return View(prisSearch);
+            
         }
 
         // GET: SearchEngine/Details/5
