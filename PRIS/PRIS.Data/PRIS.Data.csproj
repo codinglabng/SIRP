@@ -82,9 +82,6 @@
     <Compile Include="Models\Scope.cs">
       <DependentUpon>Pris.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Scope.cs">
-      <DependentUpon>PrisDb.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

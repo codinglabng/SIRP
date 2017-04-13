@@ -55,3 +55,19 @@ C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.pd
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.xml
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.xml
 C:\Users\FRANCONET\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Core.dll.config
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Owin.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Data.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Data.pdb
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\PRIS.Data.dll.config
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.pdb
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\IdentityServer3.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Core\bin\Debug\EntityFramework.SqlServer.xml
