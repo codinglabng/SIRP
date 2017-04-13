@@ -30,3 +30,8 @@ C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.pd
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.csprojResolveAssemblyReference.cache
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.dll
 C:\Users\MaxEdge\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS.Services\obj\Debug\PRIS.Services.csprojResolveAssemblyReference.cache

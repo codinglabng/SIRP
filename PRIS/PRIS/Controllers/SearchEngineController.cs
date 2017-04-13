@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using PRIS.Data.Models;
 using PRIS.Repositories;
 
+
 namespace PRIS.Controllers
 {
     public class SearchEngineController : Controller
@@ -13,20 +14,21 @@ namespace PRIS.Controllers
 
         private ApplicationRepository _ApplicationRepository = new ApplicationRepository();
         // GET: SearchEngine
-        public ActionResult Index(string searchString)
+        public ActionResult Index(string searchString = null)
         {
 
-            var prissearch = _ApplicationRepository.GetApps();
+            //var prisSearch = _ApplicationRepository.GetApps();
 
-                
-                //var prissearch = from c in _ApplicationRepository.GetApps();
-                 //                   select c;
+
+            var prisSearch = from s in _ApplicationRepository.GetApps()
+                             select s;
             if (!string.IsNullOrEmpty(searchString))
             {
-                prissearch = prissearch.Where(s => s.Name.ToLower().Contains(searchString) && s.Description.ToLower().Contains(searchString) && s.Url.Contains(searchString) && s.Author.Contains(searchString));
+                prisSearch = prisSearch.Where(s => s.Name.ToLower().Contains(searchString) && s.Description.ToLower().Contains(searchString) && s.Url.Contains(searchString) && s.Author.Contains(searchString));
             }
-            
-            return View(prissearch);
+
+            ViewData.Model = prisSearch;
+            return View();
             //return View();
         }
 

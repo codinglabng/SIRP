@@ -368,9 +368,7 @@ C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Core.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Data.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Repositories.dll
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Core.pdb
-C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Core.dll.config
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Data.pdb
-C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Data.dll.config
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\PRIS.Repositories.pdb
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.xml
 C:\Users\DBCL CONSULTANTS LTD\Source\Repos\SIRP\PRIS\PRIS\bin\EntityFramework.SqlServer.xml
