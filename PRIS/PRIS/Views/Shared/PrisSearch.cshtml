@@ -1,0 +1,17 @@
+﻿@model IEnumerable<PRIS.Data.Models.App>
+
+
+
+@foreach (var item in Model)
+{
+    <ul>
+        <li>@Html.DisplayFor(modelItem => item.Name)</li>
+        <li>@Html.DisplayFor(modelItem => item.Description)</li>
+        <li>@Html.DisplayFor(modelItem => item.Url)</li>
+        <li>@Html.DisplayFor(modelItem => item.Author)</li>
+        <li>@Html.DisplayFor(modelItem => item.DateCreated)</li>
+    </ul>
+    <hr>
+}
+
+
